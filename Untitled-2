@@ -1,0 +1,59 @@
+  <div class="container-fluid">
+    <div class="row myContent">
+		<div class="well">
+        <div class="list-group">
+          <a href="#" class="list-group-item">
+                <div class="media col-md-3 pull-right">
+                    <figure class="col-md-7">
+                        <img class="media-object img-rounded img-responsive" src="http://placehold.it/350x250" alt="placehold.it/350x250">
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="list-group-item-heading"> List group heading </h3>
+                    <p class="list-group-item-text"> Ut mea viris eripuit theophrastus, cu ponderum accusata consequuntur cum. Suas quaestio cotidieque pro ea. Nam nihil persecuti philosophia id, nam quot populo ea. 
+                        Falli urbanitas ei pri, eu est enim volumus, mei no volutpat periculis. Est errem iudicabit cu. At usu vocibus officiis, ad ius eros tibique appellantur. 
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos inventore architecto quisquam a molestiae culpa debitis quaerat cumque fuga tenetur repellendus natus itaque eaque magni nostrum veritatis voluptates distinctio, iste.                        
+                    </p>
+                          
+                      <div class="readMore"> 
+                         <button type="button" class="btn btn-success"> Read More</button>
+                      </div>
+<!--                     <div class="col-md-3 text-center">-->
+                    <div class="stars">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star-half-o"></span>
+                        <span class="fa fa-star-o"></span>
+                    </div>
+                    <p> Average 4.1 <small> / </small> 5 </p>
+                </div>
+<!--                </div>-->
+          </a>
+          
+        </div>
+        </div>
+	</div>
+</div> 
+
+
+
+a.list-group-item {
+    height:auto;
+    min-height:220px;
+}
+a.list-group-item.active small {
+    color:#fff;
+}
+
+
+
+.myContent {
+    padding-top: 10px;   
+}
+
+.readMore {
+    padding-top: 7px;
+/*    padding-left: 250px;*/
+    text-align: center;
+}
